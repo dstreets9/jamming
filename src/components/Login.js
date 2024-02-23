@@ -2,7 +2,7 @@ export default function Login({ userInfo }) {
   // LOGIN TO SPOTIFY URL
   let baseURL = "https://accounts.spotify.com/authorize";
   const client_id = "17d3d0d3109f4db082e00ef298be2a8a";
-  const redirect_uri = "http://localhost:3000";
+  const redirect_uri = "https://jammminggg.netlify.app/";
   const response_type = "token";
   const scope =
     "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public user-read-private user-read-email";
